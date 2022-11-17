@@ -1,2 +1,2 @@
-venh:
-  test: venh-dev config test change refresh
+heyform:
+  test: heyform-prod test
