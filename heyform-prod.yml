@@ -1,2 +1,23 @@
 heyform:
   test: heyform-prod test
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/heykakaodb
+    username: ENC(b+nODr+kdmhhm3cg2AiZ8GeRhg3t7ij1B2dcdEbMwWo=)
+    password: qwert12345
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+jasypt:
+  encrptor:
+    bean: jasyptEncrptor
