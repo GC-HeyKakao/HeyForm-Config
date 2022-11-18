@@ -14,10 +14,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-spring:
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
+
 jasypt:
   encrptor:
     bean: jasyptEncrptor
