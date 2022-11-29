@@ -6,7 +6,7 @@ spring:
     name: answer-service
 
   datasource:
-    url: {cipher}9ae6dc3f3381c8d0648366f9ec7bd6866f854c0564536ca2d7021a00739f685db51da4afdfabdf4cd8d444afd755d314196bbbf8ebbe691f4f24fa4a521a7c1d
+    url: "{cipher}9ae6dc3f3381c8d0648366f9ec7bd6866f854c0564536ca2d7021a00739f685db51da4afdfabdf4cd8d444afd755d314196bbbf8ebbe691f4f24fa4a521a7c1d"
     username: root
     password: kaykay2412
     driver-class-name: com.mysql.cj.jdbc.Driver
