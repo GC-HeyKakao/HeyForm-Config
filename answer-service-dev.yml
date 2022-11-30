@@ -20,4 +20,4 @@ eureka:
   instance:
     hostname: localhost
 
-message: "fourth message"
+message: "fifth message"
