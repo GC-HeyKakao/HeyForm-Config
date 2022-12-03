@@ -6,9 +6,9 @@ spring:
     name: answer-service
 
   datasource:
-    url: "jdbc:mysql://localhost:3306/heykakaodb"
-    username: "{cipher}f81624fc2ae27b225463eaddd88987557056c0d14dee66a7970df2328f42660f"
-    password: "{cipher}2823a177b4457d695e2a9d3564e689fb249ece7ac1c3be8a115e156e2866686e"
+    url: "jdbc:mysql://172.16.2.215:3306/heykakaodb"
+    username: "heykakao"
+    password: "heykakao"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 eureka:
@@ -20,4 +20,4 @@ eureka:
   instance:
     hostname: localhost
 
-message: "sixth message"
+message: "7 message"
