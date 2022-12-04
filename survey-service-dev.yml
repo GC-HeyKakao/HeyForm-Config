@@ -18,9 +18,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ANT_PATH_MATCHER
 
 #  rabbitmq:
 #    host: 127.0.0.1
@@ -43,7 +43,7 @@ eureka:
   instance:
     hostname: 172.16.4.35
 
-#springdoc:
-#  packagesToScan: pl.piomin.services.department
+springdoc:
+  packagesToScan: pl.piomin.services.department
 
 message: "7 message"
