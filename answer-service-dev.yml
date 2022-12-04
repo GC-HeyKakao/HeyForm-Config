@@ -43,6 +43,6 @@ eureka:
   instance:
     hostname: 172.16.4.35
 
-springdoc.api-docs.path : /openapi/${spring.application.name}
+springdoc.api-docs.path : /${spring.application.name}
 
 message: "7 message"
