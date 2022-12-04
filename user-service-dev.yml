@@ -9,19 +9,19 @@ spring:
     url: "jdbc:mysql://172.16.2.215:3306/heykakaodb"
     username: "heykakao"
     password: "heykakao"
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: busrefresh
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: guest
+#    password: guest
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: busrefresh
 
 eureka:
   client:
@@ -30,6 +30,6 @@ eureka:
     service-url:
       defaultZone : http://admin:admin@172.16.4.35:8761/eureka/
   instance:
-    hostname: localhost
+    hostname: eureka-server
 
 message: "7 message"
