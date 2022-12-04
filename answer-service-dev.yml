@@ -11,6 +11,17 @@ spring:
     password: heykakao
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
 #    rabbitmq:
 #      host: 127.0.0.1
 #      port: 5672
