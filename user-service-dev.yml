@@ -6,10 +6,11 @@ spring:
     name: user-service
 
   datasource:
-    url: "jdbc:mysql://172.16.2.215:3306/heykakaodb"
-    username: "heykakao"
-    password: "heykakao"
+    url: jdbc:mysql://172.16.2.215:3306/heykakaodb
+    username: heykakao
+    password: heykakao
     driver-class-name: com.mysql.cj.jdbc.Driver
+
 
 #  rabbitmq:
 #    host: 127.0.0.1
@@ -28,8 +29,8 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone : http://admin:admin@172.16.4.35:8761/eureka/
+      defaultZone : http://admin:admin@${eureka.instance.hostname}:8761/eureka/
   instance:
-    hostname: eureka-server
+    hostname: 172.16.4.35
 
 message: "7 message"
