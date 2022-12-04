@@ -18,9 +18,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
-#  mvc:
-#    pathmatch:
-#      matching-strategy: ANT_PATH_MATCHER
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
 
 #  rabbitmq:
 #    host: 127.0.0.1
