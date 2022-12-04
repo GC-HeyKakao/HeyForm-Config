@@ -6,9 +6,9 @@ spring:
     name: survey-service
 
   datasource:
-    url: "jdbc:mysql://172.16.2.215:3306/heykakaodb"
-    username: "heykakao"
-    password: "heykakao"
+    url: jdbc:mysql://172.16.2.215:3306/heykakaodb
+    username: heykakao
+    password: heykakao
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #  rabbitmq:
