@@ -43,7 +43,7 @@ eureka:
   instance:
     hostname: 172.16.4.35
 
-#springdoc:
-#  packagesToScan: pl.piomin.services.department
+springdoc:
+  packagesToScan: pl.piomin.services.department
 
 message: "7 message"
