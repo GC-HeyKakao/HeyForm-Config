@@ -11,6 +11,18 @@ spring:
     password: "heykakao"
     driver-class-name: com.mysql.jdbc.Driver
 
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: busrefresh
+
 eureka:
   client:
     fetch-registry: true
