@@ -45,6 +45,6 @@ eureka:
     hostname: 172.16.4.35
 
 springdoc:
-  packagesToScan: pl.piomin.services.department
+  packagesToScan: heykakao.HeyForm
 
 message: "7 message"
