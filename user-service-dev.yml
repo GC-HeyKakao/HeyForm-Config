@@ -14,19 +14,6 @@ spring:
     redis:
       host: 172.16.1.60
       port: 6379
-  redis:
-    pool:
-      max-idle: 5
-      min-idle: 0
-      max-active: 5
-      max-wait: -1
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        format_sql: true
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
@@ -51,7 +38,7 @@ eureka:
     service-url:
       defaultZone : http://admin:admin@${eureka.instance.hostname}:8761/eureka/
   instance:
-    hostname: 172.16.4.35
+    hostname: 210.109.60.205
 
 springdoc:
   packagesToScan: heykakao.HeyForm
