@@ -41,7 +41,7 @@ eureka:
     service-url:
       defaultZone : http://admin:admin@${eureka.instance.hostname}:8761/eureka/
   instance:
-    hostname: 210.109.60.205
+    hostname: 172.16.0.36
 
 springdoc:
   packagesToScan: heykakao.HeyForm
